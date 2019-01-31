@@ -356,7 +356,7 @@ class Command(BaseCommand):
                             accountId=account,
                             webPropertyId=property).execute()                
                     if profiles.get('items'):
-                        # Ritorno il primo view (profile) ID.  Es 9957885.                             
+                        # Ritorno il primo view (profile) ID.  Es 2332323.                             
                         return profiles.get('items')[0].get('id')
         except Exception, e:
             print("Errore in get_profile_id di GA.")
